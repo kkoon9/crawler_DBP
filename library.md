@@ -4,6 +4,7 @@
 ## Wget
 - HTTP or FTP 통신을 사용해 Server에서 file이나 Content를 다운로드할 때 사용하는 소프트웨어(다운로더) 
 - Wget의 옵션
+
 옵션      | 설명
 ----------|--------------
 -O <file>  | file에 저장한다.
