@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="ko" class="">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta property="og:site_name" content="&#46020;&#53441;&#49828; (DOTAX)"/>
+	<meta property="og:title" content="&#46020;&#53441;&#49828; (DOTAX)"/>
+	<meta property="og:description" content="&#51088;&#50976;&#47196;&#50868; &#44172;&#51076; &#52964;&#48036;&#45768;&#54000; '&#46020;&#53441;&#49828;(DOTAX)' &#50640; &#50724;&#49888;&#44152; &#54872;&#50689;&#54633;&#45768;&#45796;."/>
+		<meta property="og:image" content="http://i1.daumcdn.net/cafeimg/161017_mw/cafe_meta_image.png"/>
+	<meta name="description" content="모든 이야기의 시작, Daum 카페" />
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/1/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+	jQuery.noConflict();
+</script>
+<script src="http://s1.daumcdn.net/svc/original/U03/cssjs/userAgent/userAgent-1.0.14.min.js" type="text/javascript"></script>
+<title>도탁스 (DOTAX) - Daum 카페</title>
+<style type="text/css">
+#intro, #intro2, .intro_con, .intro_con2 {overflow: hidden;}
+.type2_1.fixed2_1 #wrap {width: 971px; margin: 0 auto; overflow: hidden;}
+.type2_1.flexibled2_1 #wrap {width: 100%;}
+.type2_1 #intro {display: none;}
+.type2_1 #intro .intro_con  {display: none;}
+.type2_1 #intro2    {display: block; overflow: hidden; width:"\"}\"";}
+* html .type2_1 #intro2 .intro_con2 {width:"\"}\""; width: 100%;  overflow: hidden;}
+.type2_1 #intro2 .intro_con2    {display: block;}
+.type2_1 #cafemenu  {float: left;}
+.type2_1 #content   {margin-left: 197px;}
+* html .type2_1 #content    {float: left; margin-left: 12px;}
+.type2_1 #primaryContent    {float: left; width: 774px;}
+.type2_1 #sidebar2  {display: block;}
+
+</style>
+<link rel="stylesheet" type="text/css" href="http://t1.daumcdn.net/cafe_cj/pcweb/css/462/2009/default.css" />
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/55/2009/common-lib.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://t1.daumcdn.net/cafe_cj/pcweb/css/86/2009/top.css" />
+					<link rel="stylesheet" type="text/css" href="http://s1.cafe.daumcdn.net/cafe/_c21_/css/mEr9/322/20181104003752.25/20181104003638.67/20181104003611.2.css?grpid=mEr9&v=1" />
+			
+<!--[if lt IE 7 ]>
+<link rel="stylesheet" href="http://t1.daumcdn.net/cafe_cj/pcweb/css/3/2009/ie6.css" type="text/css" />
+<![endif]-->
+<!--[if IE 7 ]>
+<link rel="stylesheet" href="http://t1.daumcdn.net/cafe_cj/pcweb/css/3/2009/ie7.css" type="text/css" />
+<![endif]-->
+<!--[if IE 8 ]>
+<link rel="stylesheet" href="http://t1.daumcdn.net/cafe_cj/pcweb/css/3/2009/ie8.css" type="text/css" />
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+window.__TiaraObj = { startTime:new Date() };
+var CAFEAPP = {
+    ISCUBE : true,
+    DEFAULTFONTSIZE : '9',
+    GRPID : "mEr9",
+    GRPID_PK : "4tV8vwfdIbs0",
+    GRPNAME : "\uB3C4\uD0C1\uC2A4 (DOTAX)",
+    MGRPID : "",
+    FLDID : "",
+    SUB_LAYOUT_TYPE : "type2_1", 
+    SUB_WIDTH_TYPE : "flexibled2_1",
+    CAFE_ENCRYPT_LOGIN_USERID : "",
+	IS_NO_AUTH_SIMPLEID : false,
+    MEMBER_MEMBER : false,
+    CAFEINFO_currentPublic : true,
+    CAFEON : true,
+    NOT_EDITOR : true,
+    FORM_stipulation : true,
+    MEMBER_NICKNAME : "\uC190\uB2D8",
+    MEMBER_ROLECODE : "05",
+    CAFEINFO_sleep : false,
+    GRPCODE : "dotax",   
+    CAFE_TEMPLATE_TYPE_CODE : "",
+    CATEID : "9j",
+	FANCAFE_HOST : "fancafe.daum.net"
+};
+//]]>
+</script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/300/2009/common.js" charset="UTF-8"></script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/95/2009/member_person_module.js" charset="UTF-8"></script>
+<script type="text/javascript">//<![CDATA[
+document.domain = "daum.net";
+
+function showSideView(curObj, userid, targetNick, isAdmin, isGuest) {
+			if(isGuest){
+			var sideView = new SideView(curObj, userid, targetNick, '05', isAdmin, isGuest);
+			sideView.showLayer();
+		}else{
+			alert ("해당 카페 회원만 회원메뉴를 확인하실 수 있습니다  ");
+		}
+	}
+
+//]]>
+</script><style>
+    .view_detail {display:none;position:absolute;top:0;left:0;width:100%;height:100%;background:url('//mk.kakaocdn.net/dn/emoticon/static/images/sdk/detail_view.png') no-repeat center center;background-size:contain;text-indent:-9999px;}
+	.kakao_emoticon {position:relative;width:70px;height:70px;}
+    .kakao_emoticon.anicon {position:relative;width:90px;height:70px;}
+	.kakao_emoticon img {width:70px;height:70px;}
+	.kakao_emoticon.anicon img {width:90px;height:70px;}
+</style>
+<script type="text/javascript" src="//mk.kakaocdn.net/dn/emoticon/static/javascripts/sdk/1.2.3/kakao-1.2.3-d.min.js"></script>
+<script>
+    Kakao.init('290e3fe0b2d63e49088831bdbadb4fe5');
+    function kakaoEmoticonUpdate() {
+        Kakao.Emoticon.update();
+    }
+</script><script>//<![CDATA[
+CAFEAPP.ui = {
+	SCROLL_TO_MEMO : false,
+	ISPREVIEW : false,
+	MEMO_ENTR_ISWRITEPERM : "",
+	SERVERNAME : "cafe984.daum.net"	
+};
+//]]>
+</script>
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/56/2009/home.js"></script>
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/75/2009/entrance_viewer.js" charset="UTF-8"></script>
+</head>
+<body id="cafeLayout" class="type2_1 flexibled2_1">
+<div id="wrap">
+
+<div id="upper">
+ 	<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/8/2009/url_reloader.js"></script>
+<script type="text/javascript" language="javascript">
+    (function() {
+        var FramesetChecker = {
+            cafeUrl: "http://cafe.daum.net/dotax",
+            grpcode: "dotax",
+
+            allowLoadingWithoutFrameset: function() {
+                var currentLocation = location.href;
+
+                return this.contains(currentLocation, "_c21_/bbs_search_read") // 
+                        || this.contains(currentLocation, "_c21_/cafesearch") // 
+		                || new RegExp("cafe\\d{3}.daum.net").test(location.hostname) // 
+                        || (function() {
+                    try {
+                        return opener && contains(opener.location.href, "kiss.daum.net");
+                    } catch(e) { return false; }
+                })(); // 
+            },
+
+            contains: function(str, test) {
+                return str.indexOf(test) >= 0;
+            },
+
+            changeLocation: function() {
+                UrlReloader.makeFrameCookie(document.location.href);
+                UrlReloader.saveCurrentUrl(document.location.href, this.grpcode);
+                parent.location.href = this.cafeUrl;
+            },
+
+
+            check: function() {
+                if (!this.allowLoadingWithoutFrameset()) {
+                    try {
+                        /*
+                         *   특정 브라우저에서, parent가 다른 도메인일 경우 security error가 발생한다.
+                         */
+                        var isDownFrame = parent && parent.down === self;
+                        var isSearch = parent && parent.isSearch;
+
+                        if (isSearch || !isDownFrame) { // 검색용 프레임 내부, 프레임이 씌워져 있지 않은 경우
+                            this.changeLocation();
+                        }
+                    } catch(e) {
+                        UrlReloader.saveCurrentUrl(document.location.href, this.grpcode);
+                        document.location.href = this.cafeUrl;
+                    }
+                }
+            }
+        };
+
+        FramesetChecker.check();
+    })();
+</script> 
+</div><!-- end upper -->
+<div id="cafe_gnb">
+    	<div id="notiList" class="simple_notice" style="display:none">
+	<ul id="notiList_scroll" style="top:0;">
+
+		
+		
+		    	    
+	    	
+				
+				
+		
+		
+	</ul>
+	</div>
+	<script type="text/javascript">//<![CDATA[
+		swfobject.addDomLoadEvent(function(){
+			window.ScrollNoti = new Scrolling("notiList",3000,26);
+		});
+	//]]>
+	</script>
+
+	<div id="minidaum">
+		<ul>
+			<li class="go_daum"><a href="http://www.daum.net/?t__nil_navi=daum" target="_top" class="fl">Daum</a></li>
+			<li class="bar">|</li>
+			<li><a href="http://top.cafe.daum.net?t__nil_navi=cafehome" target="_top" class="fl">카페</a></li>
+			<li class="bar">|</li>
+			<li><div id="cafe_favCafeWrap">
+	<a id="cafe_favCafeTitle" href="#" onclick="FavCafeList.toggle(); return false;">자주가는 카페</a>
+	<div id="cafe_favCafeListLayer" class="scroll" style="display:none;">
+	<ul id="cafe_favCafeList">
+			</ul>
+	<iframe id="cafe_favCafeBackboard" src="about:blank" scrolling="no" frameborder="0"></iframe>
+	</div>
+</div><script type="text/javascript">//<![CDATA[
+function mini_poplogin(){	
+	window.open("/_c21_/poplogin?grpid=mEr9","poplogin", 'width=450,height=300,resizable=no,scrollbars=no');
+	return;	
+}
+swfobject.addDomLoadEvent(function(){
+	FavCafeList.wrap = $('cafe_favCafeWrap');
+	FavCafeList.title = $('cafe_favCafeTitle');
+	FavCafeList.layer = $('cafe_favCafeListLayer');
+	FavCafeList.list = $('cafe_favCafeList');
+	FavCafeList.backboard = $('cafe_favCafeBackboard');
+	FavCafeList.login = "false";
+	FavCafeList.init();
+});
+// ]]>
+</script>
+</li>
+			<li class="bar">|</li>
+			<li>
+				<div id="daumServiceLinkWrap">
+					<a id="daumServiceLink" href="#" onclick="ServiceList.toggle(); return false;">바로가기</a>
+					<div id="daumServiceLayer" style="display: none;">
+						<ul>
+							<li><a href="https://mail.daum.net" target="_top">메일</a></li>
+                            <li><a href="http://blog.daum.net/?t__nil_navi=bloghome" target="_top">블로그</a></li>
+                            <li><a href="http://media.daum.net/?t__nil_navi=news" target="_top">뉴스</a></li>
+                            <li><a href="http://shopping.daum.net/main.daum?t__nil_navi=shophow" target="_top">쇼핑</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+			<li class="mini_btn">
+				<a href="#" class="btn fl" onclick="login();return false;"><span class="btn_txt p11" id="loginout">로그인</span></a>
+			</li>
+			<li class="mini_btn"><a href="#" class="btn fl" onclick="cafeAppLayer.showMiniDaum(this); return false;"><span class="btn_txt bt05 p11" id="cafeapp">카페앱 설치</span></a></li>
+		</ul>
+		<ins id="daum_app_layer" style="position:absolute;left:0;top:0;display:none;z-index:999999"></ins>
+		<script type="text/javascript">
+			minidaum.init();
+		</script>
+	</div>
+
+</div><!-- end cafe_gnb --><div class="cl">&nbsp;</div>
+	<div id="header">
+		<div id="title" style="height:335px;">
+					<div id="TITLEBACKGROUND">
+				<div class="tbg_t">
+					<div class="tbg_tl"></div>
+					<div class="tbg_tc"></div>
+					<div class="tbg_tr"></div>
+				</div>
+				<div id="patternHeight" class="tbg_m">
+					<div class="tbg_ml"></div>
+					<div class="tbg_mc"></div>
+					<div class="tbg_mr"></div>
+				</div>
+				<div class="tbg_b">
+					<div class="tbg_bl"></div>
+					<div class="tbg_bc"></div>
+					<div class="tbg_br"></div>
+				</div>
+			</div>
+					<div id="TITLEHOMELINK" onclick="caller('/_c21_/home?grpid=mEr9');" class="hand"></div>
+									<div id="TITLEMENUGROUP">
+				<div class="roundL"></div>
+				<ul id="menuItemList">
+																										<li >
+								<div><a href="/_c21_/recent_bbs_list?grpid=mEr9&amp;fldid=_rec" class="menu1 first">최신글 보기</a></div>
+							</li>
+																																								<li class="mbar">|</li>
+							<li >
+								<div><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=Elgq" class="menu2">웃긴자료</a></div>
+							</li>
+																																	<li class="mbar">|</li>
+							<li >
+								<div><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=LaVM" class="menu3">리그오브레전드</a></div>
+							</li>
+																																	<li class="mbar">|</li>
+							<li >
+								<div><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OjTZ" class="menu4">배틀그라운드</a></div>
+							</li>
+																																	<li class="mbar">|</li>
+							<li >
+								<div><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OMZ1" class="menu5">하스스톤</a></div>
+							</li>
+																			</ul>
+				<div class="roundR"></div>
+			</div>
+								</div><!-- end title -->
+	</div><!-- end header  -->
+    <div id="container">
+        <div id="cafemenu">
+			
+<!--  Menu panel 시작  -->
+
+						<!-- 검색엔진 -->
+<div role="form" class="searchBox searchBg">
+	<input type="text" id="search_left_query" value="" size="20" class="inpSearch inp_search" />
+	<a href="#" class="btnSearch btn_search"><span class="hidden">검색</span></a>
+</div>
+								<form name="searchMyForm" action="/_c21_/member_article_cafesearch" method="get">
+	<input type="hidden" name="item" value="userid" />
+	<input type="hidden" name="jobcode" value="1" />
+	<input type="hidden" name="grpid" value="mEr9" />
+</form>
+
+<script type="text/javascript">//<![CDATA[
+function changeInfo_tab(type){
+	var my_list = document.getElementById('myinfo_list');
+	var my_btn = document.getElementById("btn_myinfo_list");
+	
+	if (!my_list) { return; }
+	
+	if(!false){
+		window.open("/_c21_/poplogin?grpid=mEr9","poplogin", 'width=520,height=630,resizable=no,scrollbars=no');
+		return;
+	}
+	if(!false){
+		if (confirm("카페 가입 후 이용 가능합니다.\n 가입 하시겠습니까?")){
+			location.href = "/_c21_/join_register?grpid=mEr9";
+			return;
+		} else { 
+			return;
+		}
+	}
+	
+	if( my_list.className == "myinfo none" ){	
+			my_list.className = "myinfo block";
+		my_btn.innerHTML = '<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="13" height="13" alt="" class="icon_hide"><span class="arrow">▲</span>';
+		} else {		
+			my_list.className = "myinfo none";
+		my_btn.innerHTML = '<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="13" height="13" alt="" class="icon_view"><span class="arrow">▼</span>';
+		}
+    setTimeout(function() {
+        daum.Element.removeClassName('cafeinfo', 'x-repaint');
+	}, 200);
+}
+// ]]>
+</script>
+
+<div class="cafeinfoBox">
+	<div class="cafeinfo_bg" id="cafe_info_outer">
+						<div class="cafe_emblem_box">
+			<dl class="cafe_emblem">
+				<dt>
+					<a href="http://top.cafe.daum.net/_c21_/royalcafe" class="link_thumb" target="_blank" title="Daum 우수카페"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="38" height="48" class="bestcafe" alt="Daum 우수카페" border="0"></a><!-- 2018-01-04 수정 -->
+				</dt>
+				<dd>
+					<a href="http://top.cafe.daum.net/_c21_/royalcafe" target="_blank" title="Daum 우수카페"><strong class="em_number">2017</strong></a><br><!-- 2018-01-04 수정 -->
+					<a href="http://top.cafe.daum.net/_c21_/royalcafe" target="_blank" title="Daum 우수카페"><strong>프리미엄 우수카페 <!-- 2018-01-04 수정 -->
+					</strong></a>
+				</dd>
+			</dl>
+		</div>
+		<div class="infobox_line infoLine emblemLine">&nbsp;</div>
+						<div id="cafeProfileImage">
+						<img src="//img1.daumcdn.net/thumb/C151x151/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F1f3a0c18ea03a7cbefc898aa4f1c9e1906a920a6" width="151" height="151" />
+					</div>
+				<div id="cafeinfo" class="cafeinfo_bg overbg">
+			<div id="cafeinfo_list" class="cafeinfo">
+				<ul>
+					<li class="first">							
+						<img src="http://i1.daumcdn.net/cafeimg/hanmail/cf_img/rank/icon/rank_203.gif" width="20" height="20" alt="203단계(1429320점)" class="imgR" /><strong>훈장</strong> (공개)
+																																																																																																																																			</li>
+					<li><span class="info_tit">카페지기</span>
+												<a href="#" onclick="goManager('mEr9', ''); return false;" class="txt_point fl" title="&#54028;&#53804;">파투</a>
+											</li>
+					<li><span class="info_tit"><a href="/_c21_/memberlist?grpid=mEr9" onclick="caller(this.href);return false;">회원수</a></span><span class="txt_point num fl"><a href="/_c21_/memberlist?grpid=mEr9" onclick="caller(this.href);return false;" class="txt_point num">532,564</a></span></li>
+					<li><span class="info_tit">방문수</span><span class="txt_point num fl">123,560</span>
+					</li>
+					<li class="last"><a href="http://blog.daum.net/cafe_notice/2328" target="_blank" class="info_tit">카페앱수</a><span class="txt_point num fl">4,600</span>
+						<a href="/_c21_/cafe_profile?grpid=mEr9" class="opacity u fr p11">프로필</a>
+					</li>
+				</ul>
+			</div><!-- end cafeinfo -->
+			<div class="cafeinfo_bg overbg">
+				<div class="myList">
+										<div class="infobox_line infoLine top">&nbsp;</div>
+					<div class="myFolder"><a href="#" onclick="changeInfo_tab('myinfo_list'); return false;" class="hand"><span id="btn_myinfo_list"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="13" height="13" alt="" class="icon_view" /><span class="arrow">▼</span></span> 내 정보</a> <span id="alimi_new" class="alimi_new"></span></div>
+										<div id="myinfo_list" class="myinfo none">
+						<ul>
+							<li class=" first">
+								<span class="fl">
+																											<img src="http://i1.daumcdn.net/cafeimg/cf_img2/bbs2/roleicon/d_level_05.gif" width="13" height="13" alt="손님(손님)" class="vam" />
+																												<strong>손님</strong>
+																									</span>
+															</li>
+							<li><span class="roleName"><a href="/_c21_/my_alimi?grpid=mEr9&showlayer=true">&#49552;&#45784;</a></span></li>
+							<li>
+								<span class="info_tit"><a href="#" onclick="goHanmailBox(); return false;">메일 <span id="mail_cnt" class="txt_point num">확인</span></a></span>
+								<span class="fl"><a href="http://top.cafe.daum.net/_c21_/mymsgbox_main" target="_blank">카페 쪽지 <span id="msgbox_cnt" class="txt_point num">확인</span></a> <span id="msgbox_new"></span></span>
+							</li>
+							<li class="last">
+								<span class="info_tit"><a href="/_c21_/member_article_cafesearch?item=userid&grpid=mEr9">내가 쓴 글</a></span>
+								<span class="fl"><a href="/_c21_/my_alimi?grpid=mEr9">내 활동 알림</a> <span id="my_alimi_new"></span></span>				
+							</li>
+						</ul>					
+					</div><!-- end cafeinfo -->
+				</div><!-- end myList -->
+				<div class="btn_area">
+																									<a href="/_c21_/join_register?grpid=mEr9"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="159" height="35" alt="카페 가입하기" class="btn_join" /></a><br />
+																							<!-- btn_admin2 -->
+				</div><!-- end btn_area -->
+
+								<div class="cl">&nbsp;</div>
+			</div>
+		</div>
+	</div><!-- end cafeinfo_bg -->
+	<div class="cafeinfoBoxT">&nbsp;</div>
+</div><!-- end cafeinfoBox -->
+<div class="cl">&nbsp;</div>
+
+								<div class="menuBox"><div class="menuBoxIn">
+						<div id="menu_folder" style="display:  none ;">
+				<div class="menuBoxT">&nbsp;</div>
+				<div class="menuListBox"><div class="menuList">
+				<ul>
+					<li class="depth1">
+						<div id='div_menu_folder'>
+						<div class="group_tit"><h3><a href="#" onclick="showMenuList();return false;">카페 전체 메뉴</a></h3></div>
+						<div class="group_ic" id="div_menu_folder_ico"><a href="#" onclick="showMenuList();return false;"><span class="arrow">▲</span><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="14" height="14" class="icon_view01" alt="" /></a></div></div>
+					</li>
+				</ul>
+				</div></div>
+				<div class="menuBoxB">&nbsp;</div>
+			</div><!-- end menu_folder -->
+						<div id="menu_folder_list" style="display:block;">
+			<div class="menuBoxT">&nbsp;</div>
+			<div class="menuListBox"><div class="menuList">
+						<noscript>
+				<iframe name="leftmenu" id="leftmenu" frameborder="0" scrolling="no" width="100%" height="400" title="카페 메뉴" src="/_c21_/bbs_menu_ajax?grpid=mEr9&bmt=_2018110910284020181104003752.2520181104003638.6720181104003611.2" allowtransparency="true"></iframe>
+			</noscript>
+			<div id="leftmenu"></div>
+			<script type="text/javascript">
+				(function(){
+					var menuKey = 'mEr9_2018110910284020181104003752.2520181104003638.6720181104003611.2';
+					var menuUrl = '/_c21_/bbs_menu_ajax?grpid=mEr9&bmt=_2018110910284020181104003752.2520181104003638.6720181104003611.2&ajax=true';
+					
+					var leftmenu = daum.$("leftmenu");
+					if(leftmenu){
+						var menuContent = null;
+						if (typeof window.sessionStorage !== 'undefined' ) {
+							try {
+								menuContent = sessionStorage.getItem(menuKey + "v1") != null ? unescape(sessionStorage.getItem(menuKey + "v1")) : null;
+							} catch (e) {
+								// ignore not supported browser
+							}
+						}
+						if (menuContent != null) {
+							leftmenu.innerHTML = menuContent;
+							if(daum.Browser.webkit){
+								daum.Element.removeClassName("menuList", "noscript");
+							}
+							menu_select();
+                            setTimeout(function(){daum.cafe.menu.MenuGroupManager.applyMenuGroup();}, 100);
+						} else {
+							if(daum.Browser.ie6){
+								menuUrl += "&ie6="+ (new Date());
+							}
+							var cafeMenuAjax = new daum.Ajax({url : menuUrl,	
+								method: "GET",
+								onsuccess: function(response){
+									leftmenu.innerHTML = response.responseText;
+									if(daum.Browser.webkit){
+										daum.Element.removeClassName("menuList", "noscript");
+									}
+									if (typeof window.sessionStorage !== 'undefined') {
+										try {
+											sessionStorage.setItem(menuKey + "v1", escape(response.responseText));
+										} catch (e) {
+											// private browsing mode
+										}
+									}
+									menu_select();
+                                    daum.cafe.menu.MenuGroupManager.applyMenuGroup();
+								},
+								onfailure: function(response){
+									var extraString = "";
+									try{									
+										// bingbot 으로 접근했을 때, errorpv 를 보내지 않도록 한다.
+										if (daum.ua.indexOf("bingbot") > -1) {
+											return;
+										}
+										if (response.status == 406) {
+											return;
+										}
+										extraString += response.status + ";" + response.statusText + ";" + response.getAllResponseHeaders();
+									}catch(e){
+									}
+									// 메시지 처리??
+								}
+							});
+							cafeMenuAjax.request();
+						}
+					}
+				})();
+				
+				function menu_select(){
+				
+					var parUrl = document.location.href;
+					var re1 = new RegExp( "hotissue_" );
+					var re_recent = new RegExp( "recent_bbs_" );
+					var re_favor = new RegExp( "favor_bbs_" );
+					var re_image = new RegExp( "image_bbs_" );
+					var re_movie = new RegExp( "movie_bbs_" );
+					var re_poll = new RegExp( "poll_list" );
+				  	var obj, fldid, sum; 
+					 
+					if ( null != re1.exec( parUrl ) ) {	
+						obj = document.getElementById( "link_hotissue" );
+						if ( null != obj ) obj.className = 'u';
+					} else if ( null != re_recent.exec(parUrl)) {
+						obj = document.getElementById( "fldlink_recent_bbs" );		
+						if (null != obj ){
+							obj.className = "u b";
+						}			
+					} else if ( null != re_favor.exec(parUrl)) {
+						obj = document.getElementById( "fldlink_favor_bbs" );
+						if (null != obj ){
+							obj.className = "u b";
+						}			
+					} else if ( null != re_image.exec(parUrl)) {
+						obj = document.getElementById( "fldlink_image_bbs" );
+						if (null != obj ){
+							obj.className = "u b";
+						}			
+					} else if ( null != re_movie.exec(parUrl)) {
+						obj = document.getElementById( "fldlink_movie_bbs" );		
+						if (null != obj ){
+							obj.className = "u b";
+						}			
+					} else if ( null != re_poll.exec(parUrl)) {
+						obj = document.getElementById( "fldlink_poll_bbs" );		
+						if (null != obj ){
+							obj.className = "u b";
+						}			
+					}  else {
+						var re2 = new RegExp( "&fldid=([_0-9a-zA-Z]+)" );
+						var match2 = re2.exec( parUrl );
+						if ( null != match2 && 2 == match2.length ) {
+							fldid = match2[1];
+							sum = 0;
+							for ( i = 0; i < fldid.length; i++ ) {
+								sum += fldid.charCodeAt(i);
+							}
+							obj = document.getElementById("fldlink_" + fldid + "_" + sum);
+							if ( null != obj ) {
+								obj.className = 'u b';
+							}
+						}
+					}
+				}
+			</script>
+				<ul class="cafe_smenu">
+					<li class="group_line"></li>
+													<li class="icon_etc"><a href="/_c21_/invite_v2?grpid=mEr9" class="link_01">카페 초대</a></li>										</ul>
+			</div></div>
+			<div class="menuBoxB">&nbsp;</div>	
+			</div><!-- end menu_folder_list -->
+		</div></div><div class="cl">&nbsp;</div><!-- end menuBox -->
+											<!--  Menu panel 끝  -->
+
+<!--  Accessary panel 시작  -->
+					<!-- 메뉴 밑에 붙는 Accessary panel -->
+						
+									<div id="sideAd" class="line"></div> 			<script async type="text/javascript" src="http://t1.daumcdn.net/adfit/static/ad.min.js"></script>
+						
+						
+		
+
+
+        </div>
+
+        <div id="content" class="main">
+                	
+            <div id="intro2"><div class="intro_con2">
+			
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+
+
+<!-- 컬쳐라운지 start-->
+<!-- 컬쳐라운지 end  -->
+			<script type="text/javascript">//<![CDATA[
+	function getViewerLayout() {
+		var layoutNum = "2";
+		return layoutNum;
+	}
+	
+	function setViewerHeight(height, obj){
+		var flashObj = (!obj) ? document.getElementById('mocha_viewer') : document.getElementById(obj);
+		flashObj.height = height+"px";
+	}
+		(function(){
+	    /*
+	     * getStyle function based on by PPK
+	     * http://www.quirksmode.org/dom/getstyles.html
+	     */
+	    	    	    function getStyle(e, cssProperty, mozCssProperty){           
+	        var mozCssProperty = mozCssProperty || cssProperty
+	        return (e.currentStyle) ? e.currentStyle[cssProperty] : document.defaultView.getComputedStyle(e, null).getPropertyValue(mozCssProperty);  
+	    }
+		
+	    function rgb2hex(rgbstr){
+	        function toHex(n){
+	            if(n == null){
+	                return "00";
+	            }
+	            n = parseInt(n);
+	            if(n == 0 || isNaN(n)){
+	                return "00";
+	            }
+	            n = Math.max(0,n);
+	            n = Math.min(n,255);
+	            n = Math.round(n);
+	            return "0123456789ABCDEF".charAt((n - n % 16) / 16) + "0123456789ABCDEF".charAt(n % 16);
+	        }
+	        
+	        var result = rgbstr.match(/^\s*rgb\s*\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*/);
+	        if(result == null || result.length != 4){
+	            return "#000000";
+	        }
+	        return "#" + toHex(result[1]) + toHex(result[2]) + toHex(result[3]);
+	    }
+                function hexColorFilter(color){
+            if(color.match(/rgb\([0-9,\s]+\)/)){
+                return rgb2hex(color);
+            }else{
+                return color;
+            }
+        }
+		
+		window.getPageBackgroundColor = function(){
+		    var optStyleColor = "#ffffff";
+            var color = (optStyleColor == "") ? getStyle(document.body, "backgroundColor", "background-color") : optStyleColor;
+            return hexColorFilter(color);
+	    }
+	    window.getPageDefaultFontColor = function(){
+	        var optStyleColor = "#444444";
+            var color = (optStyleColor == "") ? getStyle(document.body, "color") : optStyleColor;
+            return hexColorFilter(color);
+	    }
+        
+        	    if(typeof(window.daum) == "undefined"){ window.daum = new Object(); }
+	    if(typeof(window.daum.Browser) == "undefined"){
+	        window.daum.Browser = new Object();
+		    window.daum.Browser.ie = (navigator.userAgent.toLowerCase().indexOf("msie") != -1);
+	    }
+        	    
+    })(); 
+	
+	function getCafeHostForFlash() {
+		return "cafe984.daum.net";
+	}
+//]]>
+</script>
+<!-- 카페 대문 -->
+<script type="text/javascript">// <![CDATA[
+CAFEAPP_ENTRANCE["ISPREVIEW"]= false; //
+// ]]>
+</script>
+
+			<script type="text/javascript">top.status='';</script>
+	<!-- 카페 대문 끝 -->			</div></div>
+            <div id="primaryContent"  class="home_type2" >
+				
+
+<div class="boardPanel1 cafeissue">
+<div class="list_title">
+	<div class="title">						
+		<h3 class="list_txt_tit">카페에서 알립니다</h3>						
+	</div><!-- end title -->
+	<span class="more_tit no">&nbsp;</span>
+</div><!-- end title -->
+
+
+<div class="list_bg">
+<div class="list_bg_in">
+<div class="home_bbsListBox"><div class="home_bbsListInBox">					
+<table class="home_bbsList">
+<tr>	
+	<td class="subject ">		
+		<strong>ㆍ</strong>
+			<a href="/_c21_/bbs_read?grpid=mEr9&fldid=Elgq&contentval=0ApI3zzzzzzzzzzzzzzzzzzzzzzzzz">▶ 공지사항 ◀ 도탁스 게시판 개편 & 카페운영 대해 알려드립니다. </a>
+					</td>	
+	<td class="txt_sub date num " nowrap="nowrap">18.11.05</td>
+</tr>
+<tr>	
+	<td class="subject  last ">		
+		<strong>ㆍ</strong>
+			<a href="/_c21_/bbs_read?grpid=mEr9&fldid=D8UA&contentval=0DAfHzzzzzzzzzzzzzzzzzzzzzzzzz">▶ 공지사항 ◀ 자유로운 게임 커뮤니티 도탁스 전체 공지사항</a>
+					</td>	
+	<td class="txt_sub date num  last " nowrap="nowrap">15.05.12</td>
+</tr>
+</table><!-- end home_bbsList -->
+</div></div><!-- end home_bbsListBox -->
+</div><!-- end list_bg_in -->
+</div><!-- end list_bg -->
+<div class="list_bgB"><div class="list_bgB_inL">&nbsp;</div><div class="list_bgB_inR">&nbsp;</div></div>
+</div>	
+                
+	<script type="text/javascript">//<![CDATA[
+CAFEAPP.ui = { "SERVERNAME" : "cafe984.daum.net" };
+//]]>
+</script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/2/2009/dwr/engine-2.0.5.js"></script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/119/2009/dwr/dwrstub-compressed.js"></script>
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/1/2009/thumbnail_util.js" charset="UTF-8"></script>
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/6/2009/attach_uploader.js" charset="UTF-8"></script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/96/2009/memo_reply.js" charset="UTF-8"></script>
+<script type="text/javascript" src="http://t1.daumcdn.net/cafe_cj/pcweb/js/12/2009/home_memo.js" charset="UTF-8"></script>
+
+					
+
+	<div id="pv_HOMEBOARDGROUP_0" class="boardPanel1">
+			
+<div class="homeboard_layer">
+	<div class="list_title">
+		<div class="title">
+			<h3 class="list_txt_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=LQdM" onclick="caller(this.href);return false;" title="패션게시판 ‥‥‥‥、">패션게시판 ‥‥‥‥、</a></h3>
+		</div>
+		<span class="more_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=LQdM" onclick="caller(this.href);return false;" class="more"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="15" height="15" alt="더보기" class="more_img" /><span>더보기</span></a><span class="arrowR">▶</span></span>
+	</div>
+
+ 	 		<!-- 요약형보기3  -->
+		<div class="list_bg">
+		<div class="list_bg_in">
+		<div class="summaryList">
+
+						
+		 				
+			<ul class="summary2 summary2_3">
+																		<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu4zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126484&amp;regdt=20181109102236"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile294.uf.daum.net%2Fimage%2F99F122385BE4DD4B0FDDBD"  alt="&#44032;&#49457;&#48708; &#54056;&#46377; TBJ.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu4zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126484&amp;regdt=20181109102236" title="&#44032;&#49457;&#48708; &#54056;&#46377; TBJ.." class="b">가성비 패딩 TBJ..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu4zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126484&amp;regdt=20181109102236" onclick="caller(this.href);return false;" class="p11 ls0">[2]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">10:22 &nbsp;<a href="#" onclick="showSideView(this, '4rO9RXA42Vc0', '\uB09C\uC774\uC6B0\uC8FC\uC758\uC870\uBE71');return false;" title="난이우주의조빱" class="p11">난이우주의조빱</a></span>
+																<p class="con">안녕하세요이번에는 가성비 ㅆㅅㅌㅊ 숏패딩 T..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu3zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126483&amp;regdt=20181109102016" title="&#50976;&#45768;&#53364;&#47196; &#50508;&#47113;&#49328;&#45908;.." class="b">유니클로 알렉산더..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<br />
+																<span class="txt_sub num p11 ls0">10:20 &nbsp;<a href="#" onclick="showSideView(this, '_YKtkijRoYk0', '\uC57C\uB3C8\uD0B9');return false;" title="야돈킹" class="p11">야돈킹</a></span>
+																<p class="con">http://www.uniqlo.com/kr/ko/special/alexanderwang18fw/men가격은 일반히트택 두배네영 ㅋㅋ</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu2zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126482&amp;regdt=20181109094946"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F105dd4a755f88ce49ec5a8650c0294f102929774"  alt="&#51068;&#44844;&#47476;&#49548; &#47217;&#54056;&#46377;&#51060;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu2zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126482&amp;regdt=20181109094946" title="&#51068;&#44844;&#47476;&#49548; &#47217;&#54056;&#46377;&#51060;.." class="b">일꼬르소 롱패딩이..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu2zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126482&amp;regdt=20181109094946" onclick="caller(this.href);return false;" class="p11 ls0">[32]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">09:49 &nbsp;<a href="#" onclick="showSideView(this, 'ga.AhaKMgfE0', '\uD558\uB298\uC704\uB2EC\uB2D8');return false;" title="하늘위달님" class="p11">하늘위달님</a></span>
+																<p class="con">생각했던것 만큼 예쁩니다.전 키가 작아서 멋이..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																	<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu1zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126481&amp;regdt=20181109094157" title="&#51648;&#48652;&#46972;" class="b">지브라</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu1zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126481&amp;regdt=20181109094157" onclick="caller(this.href);return false;" class="p11 ls0">[17]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">09:41 &nbsp;<a href="#" onclick="showSideView(this, 'zwbfwrSuc7c0', '\uB3C4\uB85C\uBB35');return false;" title="도로묵" class="p11">도로묵</a></span>
+																<p class="con">결국또 패배하고 33에 리셀구매하네요 ㅜ</p>
+								</dd>
+																		</dl>
+						</li>
+																					 <!--  end of foreach -->
+			</ul><!-- end summary2 --><div class="cl">&nbsp;</div>
+			<ul class="summary3 line">
+																																														<li >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu0zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126480&amp;regdt=20181109093250" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2Fbb925baeef53c3d37609e60300f8d4ce0e4f5a20"  alt="&#50612;&#51228;&#48164; &#49828;&#45712;&#49828;&#50640;&#49436;.." /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wu0zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126480&amp;regdt=20181109093250" title="&#50612;&#51228;&#48164; &#49828;&#45712;&#49828;&#50640;&#49436;.." class="b">어제밤 스느스에서 당첨되서</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=LQdM&contentval=00Wu0zzzzzzzzzzzzzzzzzzzzzzzzz&datanum=126480&regdt=20181109093250" onclick="caller(this.href);return false;" class="p11 ls0">[4]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">09:32 &nbsp;<a href="#" onclick="showSideView(this, '_YKtkijRoYk0', '\uC57C\uB3C8\uD0B9');return false;" title="야돈킹" class="p11">야돈킹</a></span>
+																				<p class="con">숙&#8212;-면 가격은 31정도지만 지방러라 만족합니당배..</p>
+									</dd>
+																						</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wtzzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126479&amp;regdt=20181109093247" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F5b8113b21e4cb87112c93042b582f4884ee3bb1a"  alt="&#51648;&#48652;&#46972; &#48708;&#49912;&#44172; &#49328;.." /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=LQdM&amp;contentval=00Wtzzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=126479&amp;regdt=20181109093247" title="&#51648;&#48652;&#46972; &#48708;&#49912;&#44172; &#49328;.." class="b">지브라 비싸게 산 흑우의 ..</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=LQdM&contentval=00Wtzzzzzzzzzzzzzzzzzzzzzzzzzz&datanum=126479&regdt=20181109093247" onclick="caller(this.href);return false;" class="p11 ls0">[6]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">09:32 &nbsp;<a href="#" onclick="showSideView(this, '8.PUO3jExm50', '\uB0AE\uC838\uBC24\uC838\uAC9C\uC838\uB2E4\uC838');return false;" title="낮져밤져겜져다져" class="p11">낮져밤져겜져다져</a></span>
+																				<p class="con">흑우왔누</p>
+									</dd>
+																						</dl>
+						</li>
+							 <!--  end of foreach -->
+			</ul>
+
+
+		</div><!-- end summaryList --><div class="cl">&nbsp;</div>
+		</div><!-- end list_bg_in -->
+		</div><!-- end list_bg -->
+		<div class="list_bgB"><div class="list_bgB_inL">&nbsp;</div><div class="list_bgB_inR">&nbsp;</div></div>
+
+		</div>		</div><!-- end boardPanel1 -->
+	
+
+					
+
+	<div id="pv_HOMEBOARDGROUP_1" class="boardPanel1">
+			
+<div class="homeboard_layer">
+	<div class="list_title">
+		<div class="title">
+			<h3 class="list_txt_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OjeU" onclick="caller(this.href);return false;" title="문화게시판 ‥‥‥‥、">문화게시판 ‥‥‥‥、</a></h3>
+		</div>
+		<span class="more_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OjeU" onclick="caller(this.href);return false;" class="more"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="15" height="15" alt="더보기" class="more_img" /><span>더보기</span></a><span class="arrowR">▶</span></span>
+	</div>
+
+ 	 		<!-- 요약형보기3  -->
+		<div class="list_bg">
+		<div class="list_bg_in">
+		<div class="summaryList">
+
+						
+		 				
+			<ul class="summary2 summary2_3">
+																		<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZBzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6025&amp;regdt=20181109081008"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile245.uf.daum.net%2Fimage%2F99175D365BE4C23A28BED9"  alt="&#48708;&#50724;&#45716; &#45216;&#50640;&#45716; &#49692;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZBzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6025&amp;regdt=20181109081008" title="&#48708;&#50724;&#45716; &#45216;&#50640;&#45716; &#49692;.." class="b">비오는 날에는 순..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZBzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6025&amp;regdt=20181109081008" onclick="caller(this.href);return false;" class="p11 ls0">[4]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">08:10 &nbsp;<a href="#" onclick="showSideView(this, 'gZH_sXb_Aak0', '\uD751\uC11D\uB3D9\uD751\uC6B0');return false;" title="흑석동흑우" class="p11">흑석동흑우</a></span>
+																<p class="con">꺄악</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZAzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6024&amp;regdt=20181109024849"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile244.uf.daum.net%2Fimage%2F997E633D5BE476DC02AC60"  alt="&#50556;&#49885;&#51008; &#50669;&#49884; &#51313;&#48156;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZAzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6024&amp;regdt=20181109024849" title="&#50556;&#49885;&#51008; &#50669;&#49884; &#51313;&#48156;.." class="b">야식은 역시 족발..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001ZAzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6024&amp;regdt=20181109024849" onclick="caller(this.href);return false;" class="p11 ls0">[7]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">02:48 &nbsp;<a href="#" onclick="showSideView(this, 'u.OS5bsp4GU0', 'Hit-boy');return false;" title="Hit-boy" class="p11">Hit-boy</a></span>
+																<p class="con">혼족 2만 1천원인데.. 배민에서 쿠폰 3천원있어..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z7zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6021&amp;regdt=20181108220533"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F9f099462dc015f61b1b16653a188ad53bf6ef526"  alt="&#51228;&#51452;&#46020; &#50668;&#54665; &#46412; .." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z7zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6021&amp;regdt=20181108220533" title="&#51228;&#51452;&#46020; &#50668;&#54665; &#46412; .." class="b">제주도 여행 때 ..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'ATQGOpX9FUQ0', '\uC5F0\uC560');return false;" title="연애" class="p11">연애</a></span>
+																<p class="con">주로 바다사진이 많네요치킨존맛이었어요 크 마..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z6zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6020&amp;regdt=20181108215144"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F8ae2a48dee8ea0a35eb36724f80c4a5c4e84a8eb"  alt="&#51060;&#44163;&#51008; &#44036;&#49885;&#51077;&#45768;&#45796;" /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z6zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6020&amp;regdt=20181108215144" title="&#51060;&#44163;&#51008; &#44036;&#49885;&#51077;&#45768;&#45796;" class="b">이것은 간식입니다</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z6zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6020&amp;regdt=20181108215144" onclick="caller(this.href);return false;" class="p11 ls0">[6]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'H_UxWT-2XzM0', '\uBCC4\uC744\uBCF4\uB294\uC544\uC774');return false;" title="별을보는아이" class="p11">별을보는아이</a></span>
+																<p class="con">냉동떡갈비!!</p>
+								</dd>
+																		</dl>
+						</li>
+																					 <!--  end of foreach -->
+			</ul><!-- end summary2 --><div class="cl">&nbsp;</div>
+			<ul class="summary3 line">
+																																														<li >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z4zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6018&amp;regdt=20181108213447" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F5b727b6111f3bbc8a8f257492144509cb8085459"  alt="&#50724;&#45720;&#51032; &#46989;&#49828;&#53552;&#46972;&#47732;" /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z4zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6018&amp;regdt=20181108213447" title="&#50724;&#45720;&#51032; &#46989;&#49828;&#53552;&#46972;&#47732;" class="b">오늘의 랍스터라면</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OjeU&contentval=001Z4zzzzzzzzzzzzzzzzzzzzzzzzz&datanum=6018&regdt=20181108213447" onclick="caller(this.href);return false;" class="p11 ls0">[7]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'E6_KCM2dtkI0', '\uC794\uB958\uC758\uC9C0\uBD80\uD3F0');return false;" title="잔류의지부폰" class="p11">잔류의지부폰</a></span>
+																				<p class="con">핵꿀맛</p>
+									</dd>
+																						</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z3zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6017&amp;regdt=20181108200627" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2Fdcab7086ed24915a84bde4367470dba914af1c37"  alt="&#50500;&#51216;&#51200;" /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OjeU&amp;contentval=001Z3zzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=6017&amp;regdt=20181108200627" title="&#50500;&#51216;&#51200;" class="b">아점저</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OjeU&contentval=001Z3zzzzzzzzzzzzzzzzzzzzzzzzz&datanum=6017&regdt=20181108200627" onclick="caller(this.href);return false;" class="p11 ls0">[10]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'VV8TJJrki6c0', '\uB9DB\uC788\uB294\uC74C\uC2DD\uC774\uBCF4\uC774\uBA74\uB313\uAE00\uC744\uB2F5\uB2C8\uB2E4');return false;" title="맛있는음식이보이면댓글을답니다" class="p11">맛있는음식이보이면댓글을답니다</a></span>
+																				<p class="con">점심으로 간식 먹고 5시 30분에 이거 먹음</p>
+									</dd>
+																						</dl>
+						</li>
+							 <!--  end of foreach -->
+			</ul>
+
+
+		</div><!-- end summaryList --><div class="cl">&nbsp;</div>
+		</div><!-- end list_bg_in -->
+		</div><!-- end list_bg -->
+		<div class="list_bgB"><div class="list_bgB_inL">&nbsp;</div><div class="list_bgB_inR">&nbsp;</div></div>
+
+		</div>		</div><!-- end boardPanel1 -->
+	
+
+					
+
+	<div id="pv_HOMEBOARDGROUP_2" class="boardPanel1">
+			
+<div class="homeboard_layer">
+	<div class="list_title">
+		<div class="title">
+			<h3 class="list_txt_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OUUd" onclick="caller(this.href);return false;" title="PET 게시판 ‥‥‥‥、">PET 게시판 ‥‥‥‥、</a></h3>
+		</div>
+		<span class="more_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OUUd" onclick="caller(this.href);return false;" class="more"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="15" height="15" alt="더보기" class="more_img" /><span>더보기</span></a><span class="arrowR">▶</span></span>
+	</div>
+
+ 	 		<!-- 요약형보기3  -->
+		<div class="list_bg">
+		<div class="list_bg_in">
+		<div class="summaryList">
+
+						
+		 				
+			<ul class="summary2 summary2_3">
+																		<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rWzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11006&amp;regdt=20181109084613"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2Fa212c185f43425a6afa0047db62f0eede5ff49d6"  alt="&#54620;&#44208;&#44057;&#51008; &#51088;&#49464;" /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rWzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11006&amp;regdt=20181109084613" title="&#54620;&#44208;&#44057;&#51008; &#51088;&#49464;" class="b">한결같은 자세</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rWzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11006&amp;regdt=20181109084613" onclick="caller(this.href);return false;" class="p11 ls0">[3]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">08:46 &nbsp;<a href="#" onclick="showSideView(this, '5K_DNAnof9A0', '\uD48D\uC6B4\uC5441');return false;" title="풍운아1" class="p11">풍운아1</a></span>
+																<p class="con">넘모 기엽자너~~</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rVzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11005&amp;regdt=20181109013047"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile249.uf.daum.net%2Fimage%2F995515375BE4648F2C09EC"  alt="&#50500;&#48512;&#51648;&#46993; &#47700;&#47217;&#51060;" /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rVzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11005&amp;regdt=20181109013047" title="&#50500;&#48512;&#51648;&#46993; &#47700;&#47217;&#51060;" class="b">아부지랑 메롱이</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rVzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11005&amp;regdt=20181109013047" onclick="caller(this.href);return false;" class="p11 ls0">[1]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">01:30 &nbsp;<a href="#" onclick="showSideView(this, 'mrGS2pBK7eA0', '\uC3D8\uC789');return false;" title="쏘잉" class="p11">쏘잉</a></span>
+																<p class="con"></p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rUzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11004&amp;regdt=20181109002324"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F6dc49ff2a404079808766adb62d04c9006e020ea"  alt="&#51452;&#51064;&#45784;&#51060; &#50504;&#48708;&#53020;&#51480;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rUzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11004&amp;regdt=20181109002324" title="&#51452;&#51064;&#45784;&#51060; &#50504;&#48708;&#53020;&#51480;.." class="b">주인님이 안비켜줘..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rUzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11004&amp;regdt=20181109002324" onclick="caller(this.href);return false;" class="p11 ls0">[4]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">00:23 &nbsp;<a href="#" onclick="showSideView(this, 'ZoD3aKRefy50', '\uCE58\uB8CC\uC220\uC0AC');return false;" title="치료술사" class="p11">치료술사</a></span>
+																<p class="con">비켜주세요 주인님ㅜㅜ그리고 동물은 입양하세요..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rTzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11003&amp;regdt=20181108232828"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F8188178240ee1c98ff7932288b1ed6572112bbf6"  alt="&#46020;&#53441;&#52572;&#44256;&#48120;&#47896;" /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rTzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11003&amp;regdt=20181108232828" title="&#46020;&#53441;&#52572;&#44256;&#48120;&#47896;" class="b">도탁최고미묘</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rTzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11003&amp;regdt=20181108232828" onclick="caller(this.href);return false;" class="p11 ls0">[2]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'qnTpDYLn.g10', '\uC5EC\uCE5C\uC788\uC74C \uB0E5\uC774\uB3C4\uC788\uC74C');return false;" title="여친있음 냥이도있음" class="p11">여친있음 냥이도있음</a></span>
+																<p class="con">미르땅긔여어</p>
+								</dd>
+																		</dl>
+						</li>
+																					 <!--  end of foreach -->
+			</ul><!-- end summary2 --><div class="cl">&nbsp;</div>
+			<ul class="summary3 line">
+																																														<li >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rSzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11002&amp;regdt=20181108214049" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Fcfile255.uf.daum.net%2Fimage%2F9998223D5BE42ECC056120"  alt="&#44256;&#50577;&#51060;&#49324;&#51652; #377" /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rSzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11002&amp;regdt=20181108214049" title="&#44256;&#50577;&#51060;&#49324;&#51652; #377" class="b">고양이사진 #377</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OUUd&contentval=002rSzzzzzzzzzzzzzzzzzzzzzzzzz&datanum=11002&regdt=20181108214049" onclick="caller(this.href);return false;" class="p11 ls0">[2]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'GzVe4SnJKgQ0', '\uACE0\uB0E5\uC774\uC0AC\uC9C4\uC0AC');return false;" title="고냥이사진사" class="p11">고냥이사진사</a></span>
+																				<p class="con">네남자이야기_#377때리지 마라.죽이지 마라.정의의 주먹이 ..</p>
+									</dd>
+																						</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																	<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUUd&amp;contentval=002rRzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=11001&amp;regdt=20181108213759" title="&#47924;&#49832; &#44256;&#50577;&#51060; &#51068;&#44620;.." class="b">무슨 고양이 일까요??</a>
+										<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />																				<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OUUd&contentval=002rRzzzzzzzzzzzzzzzzzzzzzzzzz&datanum=11001&regdt=20181108213759" onclick="caller(this.href);return false;" class="p11 ls0">[1]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, '3R6zSJIcu6Y0', '\uACE0\uC591\uC774\uC870\uC544');return false;" title="고양이조아" class="p11">고양이조아</a></span>
+																				<p class="con"></p>
+									</dd>
+																						</dl>
+						</li>
+							 <!--  end of foreach -->
+			</ul>
+
+
+		</div><!-- end summaryList --><div class="cl">&nbsp;</div>
+		</div><!-- end list_bg_in -->
+		</div><!-- end list_bg -->
+		<div class="list_bgB"><div class="list_bgB_inL">&nbsp;</div><div class="list_bgB_inR">&nbsp;</div></div>
+
+		</div>		</div><!-- end boardPanel1 -->
+	
+
+					
+
+	<div id="pv_HOMEBOARDGROUP_3" class="boardPanel1">
+			
+<div class="homeboard_layer">
+	<div class="list_title">
+		<div class="title">
+			<h3 class="list_txt_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OUBq" onclick="caller(this.href);return false;" title="백과사전 ‥‥‥‥‥、">백과사전 ‥‥‥‥‥、</a></h3>
+		</div>
+		<span class="more_tit"><a href="/_c21_/bbs_list?grpid=mEr9&amp;fldid=OUBq" onclick="caller(this.href);return false;" class="more"><img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="15" height="15" alt="더보기" class="more_img" /><span>더보기</span></a><span class="arrowR">▶</span></span>
+	</div>
+
+ 	 		<!-- 요약형보기3  -->
+		<div class="list_bg">
+		<div class="list_bg_in">
+		<div class="summaryList">
+
+						
+		 				
+			<ul class="summary2 summary2_3">
+																		<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QNzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13167&amp;regdt=20181108204021"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile292.uf.daum.net%2Fimage%2F997BC1345BE41FA9317A84"  alt="&#54224;&#50516; &#44152;&#47536; &#54868;&#54617;&#44368;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QNzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13167&amp;regdt=20181108204021" title="&#54224;&#50516; &#44152;&#47536; &#54868;&#54617;&#44368;.." class="b">폐암 걸린 화학교..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QNzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13167&amp;regdt=20181108204021" onclick="caller(this.href);return false;" class="p11 ls0">[46]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'N416YU3FsLw0', '\uC544\uD558\uADF8\uAC74\uC0AC\uACE0\uC600\uB2E4\uACE0');return false;" title="아하그건사고였다고" class="p11">아하그건사고였다고</a></span>
+																<p class="con">* 업로더 유의사항 : 정치, 성혐오, 광고,분쟁..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QMzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13166&amp;regdt=20181108204428"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F19ad1d837d50aec6d143ea8daa53878b413b17f8"  alt="&#44068;&#47085;&#49884; &#49324;&#50857;&#51088;&#46308;&#51060;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QMzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13166&amp;regdt=20181108204428" title="&#44068;&#47085;&#49884; &#49324;&#50857;&#51088;&#46308;&#51060;.." class="b">갤럭시 사용자들이..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QMzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13166&amp;regdt=20181108204428" onclick="caller(this.href);return false;" class="p11 ls0">[26]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'X7r4ckI6GwE0', '\uBD881\uC54C\uD55C\uC6C0\uD07C');return false;" title="불1알한움큼" class="p11">불1알한움큼</a></span>
+																<p class="con">화면 세로부분을 스와이프 해서 홈키 멀티키 백..</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QLzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13165&amp;regdt=20181108194815"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F13a24886be266692bc46b5e614d04d3e79c2b898"  alt="&#51228;&#51452;&#46020; &#51020;&#49885;&#51216; &#51221;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QLzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13165&amp;regdt=20181108194815" title="&#51228;&#51452;&#46020; &#51020;&#49885;&#51216; &#51221;.." class="b">제주도 음식점 정..</a>
+																<img src="http://i1.daumcdn.net/cafeimg/cf_img2/img_blank2.gif" width="8" height="12" alt="새글" class="icon_new" />
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QLzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13165&amp;regdt=20181108194815" onclick="caller(this.href);return false;" class="p11 ls0">[28]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.08 &nbsp;<a href="#" onclick="showSideView(this, 'jF-3KCguVgo0', '\uADF8\uB808\uC774\uD2B8\uD53C\uB808\uB2C8\uC988');return false;" title="그레이트피레니즈" class="p11">그레이트피레니즈</a></span>
+																<p class="con">출처ㅡ페북</p>
+								</dd>
+																		</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																	<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QKzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13164&amp;regdt=20181107210128"><img src="http://img1.daumcdn.net/thumb/C159x119/?fname=http%3A%2F%2Fcfile263.uf.daum.net%2Fimage%2F992533445BE2CD6C17D77B"  alt="&#53304;(Queen)&#51032; &#51312;&#44552;.." /></a><br /></dt>
+															<dd>
+																																<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QKzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13164&amp;regdt=20181107210128" title="&#53304;(Queen)&#51032; &#51312;&#44552;.." class="b">퀸(Queen)의 조금..</a>
+																							<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QKzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13164&amp;regdt=20181107210128" onclick="caller(this.href);return false;" class="p11 ls0">[24]</a></span>
+																<br />
+																<span class="txt_sub num p11 ls0">18.11.07 &nbsp;<a href="#" onclick="showSideView(this, 'AxjwJ8k5ScU0', '\uB3C4\uD0C1\uC11C \uC74C\uC798\uC54C \uB9CC\uB4E4\uAE30 \uD504\uB85C\uC81D\uD2B8');return false;" title="도탁서 음잘알 만들기 프로젝트" class="p11">도탁서 음잘알 만들기 프로젝트</a></span>
+																<p class="con">* 업로더 유의사항 : 정치, 성혐오, 광고,분쟁..</p>
+								</dd>
+																		</dl>
+						</li>
+																					 <!--  end of foreach -->
+			</ul><!-- end summary2 --><div class="cl">&nbsp;</div>
+			<ul class="summary3 line">
+																																														<li >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QJzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13163&amp;regdt=20181107111547" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F0294818b90dfc1f3e1c8110d23520ec00444c5ed"  alt="&#54868;&#45228;&#51012;&#46412; &#47560;&#51020;&#51012; .." /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QJzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13163&amp;regdt=20181107111547" title="&#54868;&#45228;&#51012;&#46412; &#47560;&#51020;&#51012; .." class="b">화났을때 마음을 다스리는 ..</a>
+																														<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OUBq&contentval=003QJzzzzzzzzzzzzzzzzzzzzzzzzz&datanum=13163&regdt=20181107111547" onclick="caller(this.href);return false;" class="p11 ls0">[45]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.07 &nbsp;<a href="#" onclick="showSideView(this, 'jF-3KCguVgo0', '\uADF8\uB808\uC774\uD2B8\uD53C\uB808\uB2C8\uC988');return false;" title="그레이트피레니즈" class="p11">그레이트피레니즈</a></span>
+																				<p class="con">출처ㅡ피키캐스트</p>
+									</dd>
+																						</dl>
+						</li>
+																						<li  class="last" >
+							<dl>
+																																		<dt><a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QIzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13162&amp;regdt=20181107110211" onclick="caller(this.href);return false;"><img src="http://img1.daumcdn.net/thumb/C100x75/?fname=http%3A%2F%2Ft1.daumcdn.net%2Fcafeattach%2FmEr9%2F1cd1cd28a696056b2618c0e6a5a21213863c599f"  alt="&#49324;&#46993;&#51060; &#50612;&#47140;&#50868; &#45817;.." /></a><br /></dt>
+																		<dd>
+																																										
+																				
+																				<a href="/_c21_/bbs_read?grpid=mEr9&amp;fldid=OUBq&amp;contentval=003QIzzzzzzzzzzzzzzzzzzzzzzzzz&amp;datanum=13162&amp;regdt=20181107110211" title="&#49324;&#46993;&#51060; &#50612;&#47140;&#50868; &#45817;.." class="b">사랑이 어려운 당신에게 필..</a>
+																														<span class="txt_point "><a href="/_c21_/bbs_read?grpid=mEr9&fldid=OUBq&contentval=003QIzzzzzzzzzzzzzzzzzzzzzzzzz&datanum=13162&regdt=20181107110211" onclick="caller(this.href);return false;" class="p11 ls0">[28]</a></span>
+																				<br />
+																				<span class="txt_sub num p11 ls0">18.11.07 &nbsp;<a href="#" onclick="showSideView(this, 'jF-3KCguVgo0', '\uADF8\uB808\uC774\uD2B8\uD53C\uB808\uB2C8\uC988');return false;" title="그레이트피레니즈" class="p11">그레이트피레니즈</a></span>
+																				<p class="con">출처ㅡ피키캐스트</p>
+									</dd>
+																						</dl>
+						</li>
+							 <!--  end of foreach -->
+			</ul>
+
+
+		</div><!-- end summaryList --><div class="cl">&nbsp;</div>
+		</div><!-- end list_bg_in -->
+		</div><!-- end list_bg -->
+		<div class="list_bgB"><div class="list_bgB_inL">&nbsp;</div><div class="list_bgB_inR">&nbsp;</div></div>
+
+		</div>		</div><!-- end boardPanel1 -->
+	
+                
+				                
+                <div id="sidebar2"> 
+                    <div id="component1" class="componentBox">
+</div><!-- end componentBox -->
+                    <div id="component2" class="componentBox">
+</div><!-- end componentBox -->                    <div id="component3" class="componentBox">
+</div><!-- end componentBox -->
+                    
+                                        	<div id="component4" class="componentBox">
+
+
+</div><!-- end componentBox -->
+                                    </div><!-- end sidebar2 -->             
+            </div><!-- end primaryContent -->
+            
+                    </div><!-- end content -->
+                
+    </div><!--  end container -->
+    <script type="text/javascript">
+//<![CDATA[
+var isIE = navigator.userAgent.indexOf("MSIE") != -1;
+	  if(isIE && ((CAFEAPP.SUB_WIDTH_TYPE == "flexibled2_1") || (CAFEAPP.SUB_WIDTH_TYPE == "flexibled3_1") || (CAFEAPP.SUB_WIDTH_TYPE == "flexibled3_3"))){
+		 window.setTimeout('resizeMinWidthWrap()',250);
+	  }
+//]]>
+</script>
+<div id="noMemberLayer" class="p11" style="display: none;">
+	카페에 가입되지 않은<br />회원입니다.
+</div>
+<div class="cl">&nbsp;</div>
+<div id="footer" class="line"><div class="footer_bg">
+	<p class="copyright1">
+		<a href="http://policy.daum.net/info/info" target="_blank">서비스 약관/정책</a> <span class="bar2">|</span>
+		<a href="https://cs.daum.net/redbell/top.html" target="_blank">권리침해신고</a> <span class="bar2">|</span>
+		<a href="http://top.cafe.daum.net/_c21_/agreement" target="_blank">이용약관</a> <span class="bar2">|</span>
+		<a href="http://cs.daum.net/faq/36.html" target="_blank">카페 고객센터</a> <span class="bar2">|</span>
+		<a href="http://blog.daum.net/cafe_notice/1124" target="_blank">검색비공개 요청</a>
+			</p>
+	<p class="copyright2">Copyright ⓒ <a href="http://info.daum.net/" target="_blank"><b>Kakao Corp.</b></a> All rights reserved.</p>
+</div></div><!-- end footer -->
+<div id="favorTipLayer" class="p11" style="display: none;">매주 월요일 기준으로<br />전주 월요일에서 일요일까지의<br />인기글이 보여집니다.</div>
+<img src="https://logins.daum.net/accounts/auth.gif" width="0" height="0" alt="" id="daumtrans" class="daum_auth" />
+
+
+
+<script type="text/javascript">//<![CDATA[
+	try {
+		if (parent.proxy) {
+			var homeobj = document.getElementById("homeurl");
+			homeobj.href = parent.proxy+"/dotax";
+		}
+	} catch (e) {
+	}
+
+	try {
+		if (parent.proxy) {
+			var topobj = document.getElementById("upper");
+			topobj.style.display = 'none';
+		}
+	} catch (e) {
+	}
+	try {
+		//뚜껑 카페
+		if (parent.proxy) {
+			var leftobj = document.getElementById("leftmenu");
+			if(parent.lmargin!=null)
+				leftobj.style.left = parent.lmargin;
+			else
+				leftobj.style.left = 25;
+
+			if(parent.lmargin!=null)
+				document.body.leftMargin = parent.lmargin;
+			else
+				document.body.leftMargin = 25;
+			if(parent.rmargin!=null)
+				document.body.rightMargin = parent.rmargin;
+			else
+				document.body.rightMargin = 9;
+		}
+	} catch (e) {
+	}
+
+	top.document.title = document.title;
+// ]]>
+</script>
+
+
+
+<script>
+    jQuery.noConflict();
+
+    (function($){
+        var getParameterByName = function(name, url) {
+            if (!url) {
+                url = window.location.href;
+            }
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                    results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        };
+
+        this.SearchModule = {
+            defaultSearch: function(queryString) {
+                window.location.href = "/_c21_/cafesearch?grpid=" + getParameterByName('grpid') + "&item=subject&sorttype=0&query=" + queryString;
+            }
+        };
+
+        var searchBox = $('.searchBox');
+
+        searchBox.on('click', '.btnSearch', function(e){
+            e.preventDefault();
+            var searchQuery = $(e.delegateTarget).find('.inp_search').val();
+
+            if(searchQuery === '') {
+                alert('검색할 키워드를 입력해주세요.');
+                return;
+            }
+
+            SearchModule.defaultSearch(searchQuery);
+        });
+
+        searchBox.on('keyup', '.inpSearch', function(e){
+            if(e.keyCode === 13) {
+                $(e.delegateTarget).find('.btnSearch').click();
+            }
+        });
+    })(jQuery);
+</script>
+    <!-- 사업자 정보 -->
+    
+</div><!-- end wrap -->
+<div id="dialogs"></div>
+<div id="menus"></div>
+<div id="tips"></div>
+<script type="text/javascript">//<![CDATA[
+(function(){
+        var contentsWrapId = "user_contents";
+    var userContents = daum.$(contentsWrapId);
+    if (userContents) {
+        ExifViewer.load(contentsWrapId);
+    }
+
+	var w=document.getElementById('sideAd');
+	if (w) { w.innerHTML = '<ins class="daum_ddn_area" style="display:block"\
+        data-ad-frame-id   = "sideAdFrame"\
+        data-ad-frame-name = "sideAdFrame"\
+        data-ad-unit       = "00677"\
+        data-ad-type       = "D"\
+        data-ad-width      = "170"\
+        data-ad-height     = "128"></ins>'; }
+})();
+//]]></script>
+<div id="emptySwf"></div> <script type="text/javascript">
+	//<![CDATA[
+	try {
+		if(daum.Browser.chrome) {
+			var swfParam = {
+				swfurl: 'http://cafeimg.daum-img.net/swf/',
+				params: {
+					wmode: 'transparent',
+					base: 'http://cafeimg.daum-img.net/swf/'
+				},
+				attributes: {
+					style: 'position:absolute; left: -10000px'
+				}
+			}
+			swfobject.embedSWF(swfParam.swfurl + 'empty.swf?v=1', 'emptySwf', '200', '200', '9.0.124', false, swfParam.flashvars, swfParam.params, swfParam.attributes);		
+		}
+	} catch (e) {}
+	//]]>
+</script>
+<script>
+	jQuery(function(){
+		daum.cafe.util.anchor.anchor();
+	});
+</script>
+<script>
+	var _tiq = 'undefined' !== typeof _tiq ? _tiq : [];
+	_tiq.push(['__setSection', 'cafe']);
+</script>
+<script src="http://t1.daumcdn.net/cafe_cj/pcweb/js/1/util/cafe_tiara.js"></script>
+<script>
+//<![CDATA[
+document.write('<iframe src="about:blank" width="0" height="0" frameborder="0" scrolling="no" name="ifr_korClick" id="ifr_korClick"></iframe>');
+ifr_korClick.location.href='http://cafe.daum.net/_pageview/home.html?'+new Date().getTime();
+
+function cafeActionPV(target) {
+	var service = "cafe";
+	var ref = encodeURIComponent(document.referrer);
+	var loc = encodeURIComponent(document.location);
+	var tit = encodeURIComponent(document.title);
+	var domain = "cafe.daum.net";
+	
+	ifr_korClick.location.href='http://'+ domain +'/cafeservice_pv.html?service='+service+'&ref='+ref+'&loc='+loc+'&tit='+tit+'&v='+new Date().getTime();
+}
+//]]>
+</script>
+</body>
+</html>
