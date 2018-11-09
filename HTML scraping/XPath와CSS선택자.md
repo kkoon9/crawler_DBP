@@ -14,3 +14,12 @@ title 요소 | //title | title
 body 요소의 후손 중 h1 요소 | //body//h1 | body h1
 body 요소의 자식 중 h1 요소 | //body/h1  | body > h1
 body 요소 내부의 모든 자식 요소 | //body/* | body > *
+
+# 라이브러리의 XPath와 CSS 선택자 지원 상태
+
+라이브러리    | 종류  | XPath | CSS 선택자
+-----------------| ------------| ----|-----
+ElementTree  | 표준 라이브러리 | △(XPath 1.0의 서브셋) | X
+lmxl + cssselect | 서드파티 | O | O
+Beautiful Soup | 서드파티 | X | △
+pyquery | 서드파티 | X | O
