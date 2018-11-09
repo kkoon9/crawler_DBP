@@ -23,3 +23,7 @@ ElementTree  | 표준 라이브러리 | △(XPath 1.0의 서브셋) | X
 lmxl + cssselect | 서드파티 | O | O
 Beautiful Soup | 서드파티 | X | △
 pyquery | 서드파티 | X | O
+
+## Tip
+- 웹 브라우저에서 XPath와 CSS 선택자를 쉽게 추출 가능
+- 마우스 오른쪽 클릭 - 컨텍스트 메뉴에서 [검사] - [Copy] - [Copy Xpath] or [Copy Selector]
