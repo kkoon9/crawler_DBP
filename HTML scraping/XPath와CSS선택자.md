@@ -5,3 +5,12 @@
 # CSS 선택자
  - CSS로 요소를 디자인할 때 사용하는 표기 방법
  - ex) body > h1 라고 표기하면 body 요소의 직접적인 자식 중에 h1 태그를 선택
+
+ # XPath와 CSS선택자 비교
+
+대상 요소         | XPath| CSS선택자
+------|---------|----------
+title 요소 | //title | title
+body 요소의 후손 중 h1 요소 | //body//h1 | body h1
+body 요소의 자식 중 h1 요소 | //body/h1  | body > h1
+body 요소 내부의 모든 자식 요소 | //body/* | body > *
