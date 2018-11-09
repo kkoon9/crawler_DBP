@@ -21,3 +21,7 @@
 - tree를 통해 결과물을 확인할 수 있다.
 'tree cafe984.daum.net/'
 ![tree 결과](/Wget/tree결과.JPG)
+
+### Wget 문제점
+- 검색어로 한 결과물이 제대로 나오지 않는다.
+
