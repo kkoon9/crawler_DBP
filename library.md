@@ -15,3 +15,9 @@
 -np        | 재귀적으로 다운로드할 때 부모 디렉터리는 크롤링 x
 -I <list>  | 재귀적으로 다운로드할 때 list에 포함돼 있는 디렉터리만 돈다.
 -N         | 파일이 변경되었을 때만 다운로드한다.
+
+### 다음카페 DOTAX의 홈페이지를 Wget를 이용하여 크롤링해보았다.
+'$ wget -r -np -w 1 -l 1 --restrict-file-names=nocontrol cafe984.daum.net/_c21_/home?grpid=mEr9'
+- tree를 통해 결과물을 확인할 수 있다.
+'tree cafe984.daum.net/'
+![tree 결과](/tree결과.JPG)
