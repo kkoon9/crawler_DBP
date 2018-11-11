@@ -3,7 +3,7 @@
 
 ## 다음 카페 URL 분석
 - grpid : cafeID
-- pagenum : 검색결과 page number
+- pagenum : 검색결과 page number (최대 50)
 - listnum : 페이지에 보여지는 게시물 개수
 - query : 검색할 키워드
 - searchPeriod : 검색 기간 ex) yyyy.mm.dd-yyyy.mm.dd
