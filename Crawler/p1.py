@@ -7,4 +7,6 @@ root = lxml.html.fromstring(response.content)
 for a in root.cssselect('tbody > tr > td.subject.searchpreview_subject > a'):
     url = a.get('href')
     print(url)
+    if url == '#':
+        continue
     print('----')
