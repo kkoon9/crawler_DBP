@@ -8,8 +8,8 @@ root = lxml.html.fromstring(response.content)
 root.make_links_absolute(respnse.url)
 
 for a in root.cssselect('tbody > tr > td.subject.searchpreview_subject > a'):
+    if url == '#':
+    continue
     url = a.get('href')
     print(url)
-    if url == '#':
-        continue
     print('----')
