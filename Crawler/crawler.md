@@ -16,3 +16,7 @@
 - 이를 절대 URL로 변환시켜줘야 한다.
 - make_links_absolute() 메서드를 사용할 것이다.
 - 결과 확인 : p1.result3.html
+
+### 3. 함수로 정리
+- p1.py를 함수로 나눠 정리했다.
+- 결과 확인 : p1.result4.html
