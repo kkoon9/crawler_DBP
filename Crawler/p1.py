@@ -25,14 +25,5 @@ def scrape_list_page(response):
         # yield 구문으로 제너레이터의 요소 반환
         yield url
 
-<<<<<<< HEAD
 if __name__ == '__main__':
     main()
-=======
-for a in root.cssselect('tbody > tr > td.subject.searchpreview_subject > a'):
-    if a == '#':
-    continue
-    url = a.get('href')
-    print(url)
-    print('----')
->>>>>>> 7a02f7694b9283e8070d7f55c2fd15bd5bf07989
