@@ -30,3 +30,8 @@ Name
 - <b>scrapy genspider</b> 명령어를 사용하면 템플릿을 기반으로 Spider 생성 가능하다.
 - 첫 번째 매개변수 : Spider의 이름
 - 두 번째 매개변수 : 도메인 이름을 지정한다.
+
+#### scrapy.py [1]
+- Error : Filtered offsite requests to 'logins.daum.net'
+- 로그인하는 도중에 오류가 발생한다.
+- connection was refused by other side 111 connection refused
