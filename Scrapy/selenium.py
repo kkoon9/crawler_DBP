@@ -20,15 +20,17 @@ class DotaxCrawling():
 
         self.keyword = "다이소" # 검색할 keyword
 
+        # driver를 사용하기 위한 settings
+        chrome_options = webdriver.ChromeOptions()
+        chrome_options.add_argument("--disable-infobars")
+        driver = webdriver.Chrome(chrome_options=chrome_options)
+
+        return self.login()
  
 
     def login(self):
 
-        chrome_options = webdriver.ChromeOptions()
 
-        chrome_options.add_argument("--disable-infobars")
-
-        driver = webdriver.Chrome(chrome_options=chrome_options)
 
         driver.get('https://logins.daum.net/accounts/loginform.do?url=http%3A%2F%2Fcafe984.daum.net%2F_c21_%2Fhome%3Fgrpid%3DmEr9&category=cafe&t__nil_navi=login')
 
@@ -48,4 +50,4 @@ class DotaxCrawling():
 
 if __name__ == '__main__':
 
-    DotaxCrawling().login()
+    DotaxCrawling().init()
