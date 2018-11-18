@@ -31,3 +31,5 @@ def GetMaxPageNum(self):
     self.maxPageNum = int(self.searchCount / 20) # 20은 목록 개수
     if self.searchCount % 20 != 0 : self.maxPageNum += 1
 ~~~
+
+![3번](./3번.png)
