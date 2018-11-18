@@ -55,3 +55,5 @@ def Scrape_List_Page(self,response):
         url = a.get('href')    # yield 구문으로 제너레이터의 요소 반환    
         yield url
 ~~~
+
+![4번](./4번.png)
