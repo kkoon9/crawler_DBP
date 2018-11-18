@@ -33,3 +33,25 @@ def GetMaxPageNum(self):
 ~~~
 
 ![3번](./3번.png)
+
+# 4. 절대주소 리스트에 담기
+- ※ SearchAbsoluteUrl(self), Scrape_List_Page(response)
+- 필요한 라이브러리 : requests, lxml.html
+~~~py
+def SearchAbsoluteUrl(self):
+    session = requests.Session()    
+    for i in range(1,self.maxPageNum+1): # 1부터 maxPageNum까지    
+        self.pageNum = i        
+        response = session.get(self.searchUrl)        
+        urls = self.Scrape_List_Page(response)        
+        for url in urls:        
+            self.absoluteUrl.append(url)
+
+def Scrape_List_Page(self,response):
+    root = lxml.html.fromstring(response.content)    root.make_links_absolute(response.url)
+    for a in root.cssselect('tbody > tr > td.subject.searchpreview_subject > a'):    
+        if a == '#':   
+             continue    
+        url = a.get('href')    # yield 구문으로 제너레이터의 요소 반환    
+        yield url
+~~~
