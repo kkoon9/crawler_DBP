@@ -74,3 +74,18 @@ def Login(self):
 ~~~
 
 ![5번](./5번.png)
+
+# 6. 절대주소에 들어가 텍스트 추출하기
+- ※ SearchText()
+- 필요한 라이브러리 : webdriver, BeautifulSoup
+~~~py
+def SearchText(self):
+    for URL in self.absoluteUrl:
+        self.driver.get(URL)
+        html = self.driver.page_source
+        soup = BeautifulSoup(html, 'html.parser')
+        notices = soup.select('tbody > tr > td > p')
+        for n in notices:
+            print(n.text.strip())
+            time.sleep(self.delay)
+~~~
