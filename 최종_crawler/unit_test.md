@@ -8,3 +8,16 @@ def InputKeyword(self):
 ~~~
 
 ![1번](./1번.png)
+
+# 2. 검색된 게시물 개수 구하기
+- ※ GetSearchCount(self)
+- 필요한 라이브러리 : lxml.html, requests, cssselect
+~~~py
+def GetSearchCount(self):
+        session = requests.Session()
+        response = session.get(self.searchUrl)    
+        root = lxml.html.fromstring(response.content)    root.make_links_absolute(response.url)    
+        for txt_point in root.cssselect('tbody > tr > td > div.search_result_box > em'):
+            self.searchCount = int(txt_point.text)
+~~~
+
