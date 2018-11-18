@@ -6,3 +6,5 @@ def InputKeyword(self):
         print("검색할 키워드를 입력하시오 : ")
         self.keyword = input()
 ~~~
+
+![1번](./1번.png)
