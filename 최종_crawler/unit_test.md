@@ -21,3 +21,4 @@ def GetSearchCount(self):
             self.searchCount = int(txt_point.text)
 ~~~
 
+![2번](./2번.png)
