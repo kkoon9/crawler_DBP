@@ -22,3 +22,12 @@ def GetSearchCount(self):
 ~~~
 
 ![2번](./2번.png)
+
+# 3. 최대 페이지 개수 구하기
+- ※ GetMaxPageNum(self)
+- 필요한 라이브러리 : x
+~~~py
+def GetMaxPageNum(self):
+    self.maxPageNum = int(self.searchCount / 20) # 20은 목록 개수
+    if self.searchCount % 20 != 0 : self.maxPageNum += 1
+~~~
