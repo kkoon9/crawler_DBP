@@ -57,3 +57,18 @@ def Scrape_List_Page(self,response):
 ~~~
 
 ![4번](./4번.png)
+
+# 5. 로그인하기
+- ※ Login(self)
+- 필요한 라이브러리 : time, webdriver
+~~~py
+def Login(self):
+    print("=============login start===========")
+    self.driver.get(self.loginUrl)    
+    time.sleep(self.delay) # delay 초만큼 대기    
+    self.driver.find_element_by_id('id').send_keys(self.id)    print("ID 입력 완료")    
+    self.driver.find_element_by_id('inputPwd').send_keys(self.pw)  
+    print("PW 입력 완료")    
+    self.driver.find_element_by_id('inputPwd').submit()    time.sleep(self.delay)    
+    print("로그인 완료")
+~~~
