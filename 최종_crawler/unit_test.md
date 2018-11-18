@@ -72,3 +72,5 @@ def Login(self):
     self.driver.find_element_by_id('inputPwd').submit()    time.sleep(self.delay)    
     print("로그인 완료")
 ~~~
+
+![5번](./5번.png)
