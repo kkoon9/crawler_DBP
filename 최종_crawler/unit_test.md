@@ -104,7 +104,7 @@ print(oneMonthago)
 list = []
 for day in range(1,31):
     month = oneMonthago + datetime.timedelta(days=day)
-    month_str = month.strftime("%Y-%m-%d")
+    month_str = month.strftime("%Y.%m.%d")
     list.append(month_str)
 print(list)
 ~~~
@@ -122,11 +122,12 @@ oneMonthago = now - datetime.timedelta(days=30)
 month_list = []
 for day in range(1,31):
     month = oneMonthago + datetime.timedelta(days=day)
-    month_str = month.strftime("%Y-%m-%d")
+    month_str = month.strftime("%Y.%m.%d")
     month_list.append(month_str)
 
 for period in month_list:
-    PeriodUrl = "http://cafe984.daum.net/_c21_/cafesearch?grpid=mEr9&fldid=&pagenum=&listnum=20&item=subject&head=&query=&attachfile_yn=&media_info=&viewtype=all&searchPeriod=" + period + "&sorttype=0&nickname="
+    PeriodUrl = "http://cafe984.daum.net/_c21_/cafesearch?grpid=mEr9&fldid=&pagenum=&listnum=20&item=subject&head=&query=축구&attachfile_yn=&media_info=&viewtype=all&searchPeriod=" + period + "-" + period + "&sorttype=0&nickname="
+
     print(PeriodUrl)
 ~~~
 ![8번](./8번.png)
