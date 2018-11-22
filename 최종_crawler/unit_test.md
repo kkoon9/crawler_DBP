@@ -108,5 +108,6 @@ for day in range(1,31):
     list.append(month_str)
 print(list)
 ~~~
-![6번](./6번.png)
+![7번](./7번.png)
+
 
