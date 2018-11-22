@@ -91,7 +91,7 @@ def SearchText(self):
 ~~~
 
 # 7. 1달간 날짜 뽑기
-- ※ searchPeriodTest()
+- ※ SearchPeriodMonth()
 - 당일 날짜로부터 한달전까지의 년월일을 string형태로 저장한 리스트를 만드는 함수
 - 필요한 라이브러리 : datetime
 ~~~py
@@ -109,3 +109,4 @@ for day in range(1,31):
 print(list)
 ~~~
 ![6번](./6번.png)
+
