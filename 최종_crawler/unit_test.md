@@ -89,3 +89,23 @@ def SearchText(self):
             print(n.text.strip())
             time.sleep(self.delay)
 ~~~
+
+# 7. 1달간 날짜 뽑기
+- ※ searchPeriodTest()
+- 당일 날짜로부터 한달전까지의 년월일을 string형태로 저장한 리스트를 만드는 함수
+- 필요한 라이브러리 : datetime
+~~~py
+import datetime
+
+now = datetime.date.today()
+oneMonthago = now - datetime.timedelta(days=30)
+print(oneMonthago)
+
+list = []
+for day in range(1,31):
+    month = oneMonthago + datetime.timedelta(days=day)
+    month_str = month.strftime("%Y-%m-%d")
+    list.append(month_str)
+print(list)
+~~~
+![6번](./6번.png)
