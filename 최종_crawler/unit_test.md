@@ -98,7 +98,7 @@ def SearchText(self):
 import datetime
 
 now = datetime.date.today()
-oneMonthago = now - datetime.timedelta(days=30)
+oneMonthago = now - datetime.timedelta(days=31)
 print(oneMonthago)
 
 list = []
@@ -118,7 +118,7 @@ print(list)
 import datetime
 
 now = datetime.date.today()
-oneMonthago = now - datetime.timedelta(days=30)
+oneMonthago = now - datetime.timedelta(days=31)
 month_list = []
 for day in range(1,31):
     month = oneMonthago + datetime.timedelta(days=day)
