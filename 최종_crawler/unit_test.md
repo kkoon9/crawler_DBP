@@ -110,4 +110,23 @@ print(list)
 ~~~
 ![7번](./7번.png)
 
+# 8. 1달간의 url 구하기
+- ※ GetPeriodUrl()
+- 당일로부터 30일전까지의 검색 url을 제너레이터의 요소로 반환한다.
+- 필요한 라이브러리 : datetime
+~~~py
+import datetime
 
+now = datetime.date.today()
+oneMonthago = now - datetime.timedelta(days=30)
+month_list = []
+for day in range(1,31):
+    month = oneMonthago + datetime.timedelta(days=day)
+    month_str = month.strftime("%Y-%m-%d")
+    month_list.append(month_str)
+
+for period in month_list:
+    PeriodUrl = "http://cafe984.daum.net/_c21_/cafesearch?grpid=mEr9&fldid=&pagenum=&listnum=20&item=subject&head=&query=&attachfile_yn=&media_info=&viewtype=all&searchPeriod=" + period + "&sorttype=0&nickname="
+    print(PeriodUrl)
+~~~
+![8번](./8번.png)
