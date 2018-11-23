@@ -131,3 +131,23 @@ for period in month_list:
     print(PeriodUrl)
 ~~~
 ![8번](./8번.png)
+
+# 9. 극단치 경계 구하기
+- ※ GetOutlier()
+- 1달간의 게시물 개수를 통해 극단치(outlier)를 구하는 함수이다.
+- 급증하는 데이터값을 정의하기 위해 boxplot에서 사용하는 사분위수와 IQR을 이용할 것이다.
+- 필요한 라이브러리 : numpy
+~~~py
+import numpy as np
+
+grades = [100, 100, 90, 40, 80, 100, 85, 70, 90, 65, 90, 85, 50.5]
+test1 = np.percentile(grades,25) # grades의 1사분위수 [ 하위 25% ]
+test2 = np.percentile(grades,75) # grades의 3사분위수 [ 하위 75% ]
+IQR = (test2 - test1) # IQR은 사분위 범위(Q1 ~ Q3)
+print(test1)
+print(test2)
+print(IQR)
+outlier = test2 +IQR * 1.5 # 극단치 경계는 Q1(Q3) + 1.5 * IQR
+print(outlier)
+~~~
+![9번](./9번.png)
